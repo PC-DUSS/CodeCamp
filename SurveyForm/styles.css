@@ -1,42 +1,33 @@
 html {
   height: 100%;
 }
-
 body {
+  position: relative;
   min-height: 100%;
   font-family: "DejaVu Sans", sans-serif;
-  background-image: url("desktop-skeleton.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 80% 20%;
-  background-attachment: fixed;
+  background: url("https://get.pxhere.com/photo/desk-computer-screen-spring-office-toy-miniature-monitor-help-figurine-skeleton-pc-addiction-self-help-computer-searches-internet-addiction-selbsthilfegruppe-667847.jpg") 80% 20%/cover no-repeat fixed;
+  z-index: -2;
 }
-
 form {
   display: flex;
   flex-direction: column;
-  position: relative;
   padding: 3rem 3rem;
   margin-top: 2.25rem;
   background-color: rgba(0, 0, 0, 0.6);
   border-radius: 0.3rem;
 }
-
 p, .label-control, .form-submit {
   font-size: 1.125rem;
 }
-
 textarea {
   font-family: "DejaVu Sans", sans-serif;
   font-size: 1rem;
   padding: 0.6em 0.6rem 0.6rem 0.6rem;
   border-radius: 0.15rem;
 }
-
 [type="checkbox"], [type="radio"] {
   margin-right: 0.5rem;
 }
-
 #overlay {
   position: fixed;
   top: 0px;
@@ -44,46 +35,37 @@ textarea {
   width: 100%;
   height: 100%;
   background-color: hsla(220, 100%, 50%, 0.6);
+  z-index: -1;
 }
-
 #title {
   text-align: center;
   color: rgb(240, 240, 240);
   font-size: 2rem;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
-
 #description {
   text-align: center;
   color: rgb(220, 220, 220);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
-
 .form-page {
   color: rgb(240, 240, 240);
-  position: relative;
   min-width: 25rem;
   max-width: 50rem;
   margin: auto auto 50px auto;
   padding-top: 3rem;
 }
-
 .form-items {
-  position: relative;
   display: block;
   padding-bottom: 1rem;
 }
-
 .checkbox-group-control {
   display: flex;
   flex-direction: column;
 }
-
 .checkbox-control {
-  position: relative;
   margin-bottom: 0.5rem;
 }
-
 .input-control {
   display: block;
   margin-top: 0.5rem;
@@ -93,15 +75,11 @@ textarea {
   width: 100%;
   border-radius: 0.35rem;
 }
-
-
 .comment-control {
   display: flex;
   flex-direction: column;
 }
-
 .form-submit {
-  box-sizing: border-box;
   background-color: rgb(80, 150, 80);
   color: rgb(235, 235, 235);
   height: 2.9rem;
