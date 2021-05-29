@@ -1,0 +1,72 @@
+#main {
+  font-family: Caladea, serif;
+}
+
+.top-section {
+  position: relative;
+  margin-top: 30px;
+  display: grid;
+  background-color: rgb(235, 235 , 235);
+  justify-items: center;
+}
+
+.top-header {
+  font-size: 40px;
+}
+
+.top-description {
+  color: rgb(50, 50, 50);
+  font-size: 18px;
+}
+
+#img-div {
+  display: grid;
+  justify-items: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  font-size: 18px;
+  color: rgb(50, 50, 50);
+}
+
+#tribute-info {
+  display: grid;
+  background-color: rgb(235, 235, 235);
+  justify-items: center;
+  align-items: center;
+}
+
+#tribute-heading {
+  position: relative;
+  margin-top: 50px;
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+}
+
+#tribute-items {
+  color: rgb(50, 50 , 50);
+  font-size: 18px;
+  max-width: 600px;
+}
+
+#ending-quote {
+  color: rgb(50, 50 , 50);
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.tribute-close {
+  position: relative;
+  color: rgb(20, 20, 20);
+  font-size: 22px;
+  margin-bottom: 70px;
+}
+
+#tribute-link {
+  color: hsl(270, 30%, 40%);
+}

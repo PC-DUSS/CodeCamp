@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+} 
+
+body {
+  min-height: 100%;
+  font-family: "DejaVu Sans", serif;
+}
+
+body {
+  background-image: url("desktop-skeleton.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form {
+  position: relative;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0.25rem;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(220, 100%, 50%, 0.6);
+}
+
+#title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#description {
+  text-align: center;
+}
+
+.form-page {
+  color: rgb(240, 240, 240);
+  position: relative;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+}
