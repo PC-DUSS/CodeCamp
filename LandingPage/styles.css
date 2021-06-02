@@ -109,7 +109,7 @@ body {
 }
 
 #features {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .feature-box {
@@ -156,30 +156,66 @@ body {
 }
 
 .offer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   font-weight: normal;
   height: 21rem;
-  width: 30%;
+  width: 31%;
   border: 1px solid black;
+  border-radius: 3px;
+  padding-bottom: 2rem;
 }
 
-.offer-box > .offer-title {
+.offer-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.offer-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
+  flex: 0 0 3.5rem;
   width: 100%;
   background-color: #ddddee;
   font-weight: normal;
   font-size: 0.8rem;
 }
 
-.offer-box > .offer-price {
+.offer-price {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 4rem;
+  flex: 0 0 4rem;
   width: 100%;
   font-size: 1.5rem;
+}
+
+.offer-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0 0 8rem;
+}
+
+.offer-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.1rem;
+  width: 6rem;
+  background-color: orange;
+  border-radius: 2px;
+}
+
+.offer-select > a {
+  text-decoration: none;
+  color: initial;
 }
 
 footer {
@@ -211,8 +247,11 @@ footer {
   margin-right: 10px;
 }
 
-.footer-info > h4 {
+.footer-info > a {
   font-weight: normal;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: initial;
 }
 
 .footer-container > p {
