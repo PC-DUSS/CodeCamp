@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height, width: 100%;
+}
+
+body {
+  font-family: "Liberation Sans", sans-serif;
+}
+
+#navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 19em;
+  position: fixed;
+  border-right: 3px solid grey;
+}
+
+#main-doc {
+  position: absolute;
+  top: 0;
+  left: 19em;
+}
+
+header {
+  font-size: 1.8rem;
+  padding: 20px 10px 20px 35px;
+}
+
+#navbar > ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+#navbar > ul > li {
+  padding: 14px 14px 14px 35px;
+  border-top: 1px solid black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #505050;
+}
+
+p {
+  color: #505050;
+  font-size: 0.97rem;
+  line-height: 1.5;
+  padding: 0px 10px 0px 50px;
+}
+
+.main-section > header {
+  padding-bottom: 5px;
+}
+
+.main-section > ul > li {
+  color: #505050;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  margin: 15px 0px 15px 70px;
+}
+
+.main-section > ul > li > ul > li {
+  color: #505050;
+  font-size: 0.97rem;
+  line-height: 1.6;
+  margin: 15px 0px 15px 20px;
+}
+
+.code-container {
+  background-color: #efefef;
+  margin: 5px 40px 5px 60px;
+  padding: 1px 1px 1px 1px;
+}
+
+code > p {
+  background-color: #bbf0bb;
+  font-family: "Liberation Mono", monospace;
+  font-size: 0.75rem;
+  line-height: 1.8;
+  max-width: 35rem;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+@media all and (max-width: 830px) {
+  #navbar {
+    position: relative;
+    background-color: white;
+    max-height: 18rem;
+    width: 100%;
+    border-bottom: 3px solid grey;
+    z-index: 1;
+  }
+
+  #main-doc {
+  top: 18rem;
+  left: 0;
+  }
+}

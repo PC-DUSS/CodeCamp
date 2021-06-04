@@ -265,7 +265,7 @@ footer {
 }
 
 .footer-info {
-  width: 22%;
+  width: 12rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -324,5 +324,5 @@ footer {
 
   .offer-box {
     margin-bottom: 15px;
-    
+
   }
